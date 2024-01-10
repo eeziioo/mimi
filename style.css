@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('img/Layer\ 43@1\,5x.svg');
+    background-size: cover;
+    height: 700px;
+    position: absolute;
+    width: 100%;
+}
+
+.birinchi {
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+}
+
+.birinchi-content {
+    padding-top: 443px;
+}
+
+.bir {
+    width: 40px;
+    height: 2px;
+    margin-bottom: 24px;
+    background-color: #FFF;
+}
+
+.bir-text {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    /* 100% */
+    letter-spacing: -1.5px;
+    max-width: 498px;
+
+}
+
+.ikkinchi-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
+}
+
+.here {
+    width: 300px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+    letter-spacing: -1.5px;
+}
+
+.iki-left-span {
+    color: var(--Blue, #0075FF);
+}
+
+.over {
+    color: var(--Blue, #0075FF);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 125% */
+    width: 440px;
+}
+
+.ikki-info {
+    color: var(--Text, #3E3E3E);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 168.75% */
+    width: 440px;
+
+    margin-top: 16px;
+}
+
+.iki-info-span {
+    font-weight: 700;
+
+}
+
+.iki-info-pan {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    /* 100% */
+    letter-spacing: -1.5px;
+    margin-top: 104px;
+}
+
+.card-uch {
+    margin-top: 40px;
+}
+
+.uch-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.uch-text {
+    margin-bottom: 56px;
+}
+
+.card-text {
+    color: var(--Blue, #0075FF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    /* 168.75% */
+    padding-left: 140px;
+    margin-top: 24px;
+}
+
+.uch-card-span {
+    color: var(--Text, #3E3E3E);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.uch-btn button {
+    color: var(--Blue, #0075FF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    width: 150px;
+    height: 56px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: #0075FF solid 2px;
+}
+
+.uch-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.tort-card {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.text-tort1 {
+    color: var(--Blue, #0075FF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 125% */
+    width: 324px;
+    margin-top: 32px;
+    margin-bottom: 4px;
+}
+
+.text-tort2 {
+    color: #9FADC2;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 192.857% */
+    width: 324px;
+}
+
+.text-tort3 {
+    color: var(--Text, #3E3E3E);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 168.75% */
+    width: 324px;
+    margin-top: 4px;
+}
+
+.tort-img {
+    display: flex;
+    justify-content: center;
+}
+
+.tort-text {
+    max-width: 324px;
+
+}
+
+.besh-adres {
+    color: #9FADC2;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 192.857% */
+    margin-top: 24px;
+}
+
+.besh-tel {
+    color: var(--Text, #3E3E3E);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    /* 168.75% */
+    margin-top: 8px;
+}
+
+.besh-left {
+    display: flex;
+    gap: 100px;
+}
+
+.massage {
+    width: 411px;
+    height: 144px;
+    border-radius: 8px;
+    background: #F6F8FF;
+    padding-left: 17px;
+    border: none;
+    margin-top: 16px;
+}
+
+.text {
+    width: 411px;
+    height: 48px;
+    border-radius: 8px;
+    background: #F6F8FF;
+    padding-left: 17px;
+    border: none;
+
+}
+
+.email {
+    width: 411px;
+    height: 48px;
+    border-radius: 8px;
+    background: #F6F8FF;
+    padding-left: 17px;
+    border: none;
+    margin-top: 16px;
+
+}
+
+form button {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    /* 87.5% */
+    fill: #005ECC;
+    filter: drop-shadow(0px 13px 27px rgba(0, 83, 181, 0.46));
+    background-color: #0075FF;
+    width: 411px;
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px;
+}
+
+.beshinchi-content {
+    display: flex;
+    justify-content: center;
+    gap: 280px;
+}
+
+.besh-right {
+    width: 411px;
+    height: 376px;
+}
+
+footer {
+    background: url('img/image\ 1\ \(2\).svg');
+    background-size: cover;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    padding-top: 359px;
+    padding-bottom: 32px;
+    margin-top: 120px;
+}
+
+@media screen and (max-width:576px) {
+    .header-content {
+        padding: 10px;
+    }
+
+    main {
+        padding: 30px;
+    }
+
+    .ikkinchi-content {
+        flex-wrap: wrap;
+        margin-top: 64px;
+    }
+
+    .ikki-info {
+        width: 279px;
+    }
+
+    .here {
+        margin-top: 150px;
+    }
+
+    .over {
+        width: 280px;
+        margin-top: 48px;
+    }
+
+    .tort-card {
+        flex-wrap: wrap;
+    }
+
+    .beshinchi-content {
+        flex-wrap: wrap;
+    }
+
+    .besh-right {
+        margin-top: -195px;
+    }
+
+    .text {
+        width: 280px;
+        height: 48px;
+    }
+
+    .email {
+        width: 280px;
+        height: 48px;
+    }
+
+    .massage {
+        width: 280px;
+        height: 144px;
+    }
+
+    form button {
+        width: 280px;
+        height: 48px;
+    }
+
+    footer {
+        margin-top: 64px;
+    }
+
+    .bir-text {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 46px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 86.957% */
+        letter-spacing: -1px;
+        width: 280px;
+    }
+
+    .uc-img {
+        width: 131px;
+        height: 150px;
+    }
+
+    .card-text {
+        width: 280px;
+        padding-left: 0;
+    }
+}
